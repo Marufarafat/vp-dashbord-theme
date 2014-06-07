@@ -1,7 +1,7 @@
  <?php
  /*
  * Plugin Name: VP Dashbord Theme
- * Plugin URI: http://wordpress.org/test
+ * Plugin URI: https://wordpress.org/plugins/vp-dashbord-theme/
  * Description: A brief description of the Plugin.
  * Version: 1.0
  * Author: Maruf Arafat
