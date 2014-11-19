@@ -1,14 +1,14 @@
- <?php
- /*
- * Plugin Name: VP Dashbord Theme
- * Plugin URI: https://wordpress.org/plugins/vp-dashbord-theme/
- * Description: A brief description of the Plugin.
- * Version: 1.0
- * Author: Maruf Arafat
- * Author URI: http://marufarafat.me
+<?php
+/**
+ * @package VP Dashbord Theme
  */
-
-
+/*
+Plugin Name: VP Dashbord Theme
+Plugin URI: https://wordpress.org/plugins/vp-dashbord-theme/
+Version: 1.1
+Author: Maruf Arafat
+License: GPLv2 or later
+*/
 function wp_dashbord_theme_stylesheet_in_admin_head() {
 
 	wp_register_style( 'admin_style', plugin_dir_url( __FILE__ ) . '/css/style.css', false, '1.0.0' );
